@@ -10,7 +10,11 @@
 
 ## Usage
 
-All you should need for a basic build is a Dockerfile from this in the root of your sbt project.
+All you should need for a basic build is a Dockerfile from this in the root of your sbt project. ie.
+
+    FROM platy/sbt-autobuild:latest
+    MAINTAINER Mike Bush <mpbush@gmail.com>
+
 
 `docker compile` on your project will compile it
 
