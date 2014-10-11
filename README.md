@@ -15,3 +15,6 @@ All you should need for a basic build is a Dockerfile from this in the root of y
 `docker compile` on your project will compile it
 
 `docker run` will call `sbt run`
+
+## Docker Hub
+https://registry.hub.docker.com/u/platy/sbt-autobuild/
