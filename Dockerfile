@@ -30,7 +30,9 @@ RUN mkdir /tempproject && \
 	rm -r /tempproject
 
 
-ONBUILD ADD . /app
+ONBUILD ADD project /app/project
+ONBUILD ADD src /app/src
+ONBUILD ADD build.sbt /app/
 
 ONBUILD WORKDIR /app
 ONBUILD RUN sbt compile
